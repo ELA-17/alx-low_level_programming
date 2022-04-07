@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  * main - checking the type for the size of data
- * @void:no input
- * section header:return zero
+ * @void: no input
+ * section header: return zero
  * Return: return the size for each data type
  */
 int main(void)
