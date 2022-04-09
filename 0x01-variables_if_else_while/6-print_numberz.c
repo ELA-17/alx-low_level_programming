@@ -14,5 +14,6 @@ while (num < 10)
 putchar(num + '0');
 num = num + 1;
 }
+putchar('\n');
 return (0);
 }
