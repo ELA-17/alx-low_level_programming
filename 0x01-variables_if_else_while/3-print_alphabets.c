@@ -14,7 +14,6 @@ while (ch <= 'z')
 putchar(ch);
 ch = ch + 1;
 }
-putchar('\n');
 while (CH <= 'Z')
 {
 putchar(CH);
