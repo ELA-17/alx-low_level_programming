@@ -1,15 +1,23 @@
 #include "main.h"
 /**
- * _islower - character check
- * @c: check for c
+ * print_sign - sign check
+ * @n: check for n
  *
- * Return: return zero or one
+ * Return: return zero or one or minus one
  */
-int _islower(int c)
+int print_sign(int n)
 {
-if ((c >= 'a' && c <= 'z') ||
-(c >= 'A' && c <= 'Z'))
+if (n > 0)
+{
+_putchar('+');
 return (1);
-else
+}
+else if (n == 0)
+{
+_putchar('0');
 return (0);
 }
+else
+{
+_putchar('-');
+return (-1);
