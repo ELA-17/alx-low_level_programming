@@ -12,10 +12,10 @@ while (j < 10)
 i = 'a';
 while (i <= 'z')
 {
--putchar(i);
+_putchar(i);
 i = i + 1;
 }
--putchar(\n);
+_putchar(\n);
 j = j + 1;
 }
 }
