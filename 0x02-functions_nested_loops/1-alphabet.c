@@ -5,7 +5,7 @@
  * header: return from a to z
  * Return: return zero
  */
-int main(void)
+void print_alphabet(void)
 {
 char i = 'a';
 while (i <= 'z')
