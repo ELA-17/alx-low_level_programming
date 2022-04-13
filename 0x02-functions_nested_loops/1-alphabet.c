@@ -1,11 +1,7 @@
 #include "main.h"
 
 /**
- * main - initialize from a
- * @void: forming loop
- * description: using customized header
- * header: return from a to z in lower case
- * Return: return zero
+ * print_alphabet - print alphabet in a lower case
  */
 void print_alphabet(void)
 {
