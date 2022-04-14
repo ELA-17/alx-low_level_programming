@@ -16,7 +16,7 @@ printf("%d, ", fnum);
 }
 printf("\n");
 {
-else
+if (n >= 98)
 {
 for (fnum = n; fnum >= 98; fnum--)
 printf("%d, ", fnum);
