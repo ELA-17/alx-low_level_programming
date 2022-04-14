@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main -c list natural number multiple
  *
